@@ -2,14 +2,16 @@ import React from 'react'
 
 //displays an option as a list item
 const Option = (props) =>(
-        <li>
-            {props.option}
-            <button onClick={(e) => {
+        <p className="option">
+            <p className="option__text">{props.count}. {props.option}</p>
+            <button 
+            className="button button--link"
+            onClick={(e) => {
                 props.deleteOption(props.option)
             }}
             
             >Remove</button>
-        </li>
+        </p>
     )
 
 export default Option

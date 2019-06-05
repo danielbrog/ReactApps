@@ -5,6 +5,7 @@ const Action = (props) => (
     <div>
         <h1> Indecision App</h1>
             <button
+            className="big-button"
                 onClick={props.makeDecision}
                 disabled={!props.hasOptions}
                 >
