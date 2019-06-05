@@ -1,0 +1,32 @@
+//widget
+.widget{
+    background-color: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+//widget note
+p.widget__note {
+    color: $off-white;
+    text-align: center;
+    margin: 0;
+    padding: $m-size;
+    border-bottom: 1px solid lighten($light-blue, 10%);
+}
+
+
+//widget header
+.widget-header {
+    background-color: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+}
+
+//widget title
+.widget-header__title {
+    margin: 0;
+}
+
+//widget content
+
