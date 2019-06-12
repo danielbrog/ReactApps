@@ -1,7 +1,7 @@
 //widget
 .widget{
     background-color: $light-blue;
-    margin-bottom: $xl-size;
+    margin-bottom: $m-size;
 }
 
 //widget note
@@ -11,6 +11,7 @@ p.widget__note {
     margin: 0;
     padding: $m-size;
     border-bottom: 1px solid lighten($light-blue, 10%);
+    font-weight: 600
 }
 
 
@@ -30,3 +31,8 @@ p.widget__note {
 
 //widget content
 
+@media (min-width: $desktop-breakpoint) {
+    .widget{
+        margin-bottom: $xl-size;
+    }
+}

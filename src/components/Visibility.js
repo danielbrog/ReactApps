@@ -23,8 +23,8 @@ export default class Visibility extends React.Component{
             <div className = "widget-header">
             <h1 className="widget-header__title">Visibility Toggle App</h1>
             </div>
-                <button onClick={this.toggleVis}>{this.state.visibility ? 'Hide Message' : 'Show Message'}</button>
-                {this.state.visibility && (<p>This is a visability toggle message</p>)}
+                <button className="button" onClick={this.toggleVis}>{this.state.visibility ? 'Hide Message' : 'Show Message'}</button>
+                {this.state.visibility && (<p className="widget__note">This is a visability toggle message</p>)}
             </div>
         )
     }

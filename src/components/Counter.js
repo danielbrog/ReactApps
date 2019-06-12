@@ -51,10 +51,10 @@ export default class Counter extends React.Component{
             <div className = "widget-header">
             <h1 className="widget-header__title">Count App</h1>
             </div>
-                <h4>Count: {this.state.count}</h4>
-                <button onClick={this.addOne}>+1</button>
-                <button onClick={this.minusOne}>-1</button>
-                <button onClick={this.reset}>Reset</button>
+                <p className="widget__note">Count: {this.state.count}</p>
+                <button className="button__spacing" onClick={this.addOne}>+1</button>
+                <button className="button__spacing" onClick={this.minusOne}>-1</button>
+                <button className="button__spacing" onClick={this.reset}>Reset</button>
             </div>
         );
     }

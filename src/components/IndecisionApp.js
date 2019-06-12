@@ -24,7 +24,7 @@ export default class IndecisionApp extends React.Component{
     }
 
     //delete single option in state
-    deleteOption(optiontoRemove){
+    deleteOption = (optiontoRemove)=>{
         this.setState((prevState) => ({
             options: prevState.options.filter((option) =>  option !== optiontoRemove)
         }))
