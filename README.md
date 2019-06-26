@@ -1,2 +1,4 @@
 # ReactApps
-Learning react, planning on eventually merging with the node site to have a full stack site.
+simple single page application with various functionalities including:
+
+Notes, increment/decrement, show/hide.
